@@ -9,3 +9,5 @@ The implementation uses [GLM](https://glm.g-truc.net) and [SDL2](https://www.lib
 Use [CMake](https://cmake.org/) to generate your build files (e.g., Makefile on Unix or Visual Studio solution on Windows). For Linux, you will need to have SDL2 installed using your package manager (for Windows, it is included). GLM is directly included. Compiled and tested on Linux Mint 19 with GCC 7.4 and Windows 7 (64-bit) with Visual Studio 2017.
 
 *Note*: the random number generation (`drand48()` on Linux and `rand()` on Windows) is not thread-safe and should ideally be replaced be a fast and reliable RNG per thread, but for this simple example I did not bother to do that.
+
+![Example Screenshot](example_screenshot.png)
