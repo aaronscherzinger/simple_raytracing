@@ -1,4 +1,4 @@
-# Simple Raytracing
+# Simple CPU Raytracing
 
 This is a simple CPU ray tracer (more precisely, path tracer) which is based on ["Ray Tracing in One Weekend" by Peter Shirley](http://www.realtimerendering.com/raytracing/Ray%20Tracing%20in%20a%20Weekend.pdf). The implementation largely follows his tutorial, but instead of writing out the result to an image file, it is rendered to a window on screen. I also added multi-threaded rendering by implementing a simple task pool using C++ 11 threads and an interative refinement of the rendered image to reduce noise over time. 
 
