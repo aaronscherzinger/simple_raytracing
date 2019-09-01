@@ -1,6 +1,6 @@
 # Simple Raytracing
 
-This is a simple CPU ray tracer (more precisely, path tracer) which is based on the great ["Ray Tracing in One Weekend" by Peter Shirley ](http://www.realtimerendering.com/raytracing/Ray%20Tracing%20in%20a%20Weekend.pdf). The implementation largely follows his tutorial, but instead of writing out the result to an image file, it is rendered to a window on screen. I also added multi-threaded rendering by implementing a simple task pool using C++ 11 Threads and an interative refinement of the rendered image to reduce noise over time. 
+This is a simple CPU ray tracer (more precisely, path tracer) which is based on ["Ray Tracing in One Weekend" by Peter Shirley](http://www.realtimerendering.com/raytracing/Ray%20Tracing%20in%20a%20Weekend.pdf). The implementation largely follows his tutorial, but instead of writing out the result to an image file, it is rendered to a window on screen. I also added multi-threaded rendering by implementing a simple task pool using C++ 11 threads and an interative refinement of the rendered image to reduce noise over time. 
 
 The camera is controlled by a simple implementation of the trackball metaphor. It can be rotated around the center of the scene using the arrow keys. Using the Left Shift modifier in combination with the up or down arrow keys will increase or decrease the radius of the trackball. Note that there are no collision checks with the scene geometry and having the camera inside of a sphere will not result in a correct rendering.
 
