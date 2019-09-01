@@ -10,4 +10,6 @@ Use [CMake](https://cmake.org/) to generate your build files (e.g., Makefile on 
 
 *Note*: the random number generation (`drand48()` on Linux and `rand()` on Windows) is not thread-safe and should ideally be replaced be a fast and reliable RNG per thread, but for this simple example I did not bother to do that.
 
+<p align="center">
 ![Example Screenshot](example_screenshot.png)
+</p>
